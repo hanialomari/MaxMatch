@@ -33,11 +33,11 @@ To address these challenges, we propose a Maximal Pair Assignment Similarity fun
     <div class="column is-four-fifths">
         <figure>
             <img src="fig_main.jpg" alt="Main method figure">
-<figcaption class="has-text-justified">
-  <em>
-    An overview of the model architecture inspired by SetDiv <a href="https://arxiv.org/abs/2306.00997" target="_blank">[Kim et al., 2023]</a>, consisting of a visual encoder, textual encoder, and set prediction modules for \( f^V \) and \( f^T \). Local and global features from each modality are processed to generate embedding sets \( S^V \) and \( S^T \), enabling more expressive cross-modal representations. We propose three core components to enhance diversity and prevent collapse: Maximal Pair Assignment Similarity, Global Discriminative Loss, and Intra-Set Divergence Loss. Right: The Global Discriminative Loss encourages separation between individual embeddings and the global set embedding to prevent collapse, while the Intra-Set Divergence Loss enforces distinctiveness among embeddings within each set.
-  </em>
-</figcaption>
+                <figcaption class="has-text-justified">
+                <em>
+                    An overview of the model architecture inspired by SetDiv <a href="https://arxiv.org/abs/2306.00997" target="_blank">[Kim et al., 2023]</a>, consisting of a visual encoder, textual encoder, and set prediction modules for \( f^V \) and \( f^T \). Local and global features from each modality are processed to generate embedding sets \( S^V \) and \( S^T \), enabling more expressive cross-modal representations. We propose three core components to enhance diversity and prevent collapse: Maximal Pair Assignment Similarity, Global Discriminative Loss, and Intra-Set Divergence Loss. Right: The Global Discriminative Loss encourages separation between individual embeddings and the global set embedding to prevent collapse, while the Intra-Set Divergence Loss enforces distinctiveness among embeddings within each set.
+                </em>
+                </figcaption>
         </figure>
     </div>
 </div>
