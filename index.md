@@ -2,7 +2,7 @@
 layout: project_page
 permalink: /
 
-title: Maximal Matching Matters: Preventing Representation Collapse for Robust Cross-Modal Retrieval
+title: Maximal Matching Matters Preventing Representation Collapse for Robust Cross-Modal Retrieval
 authors:
     Hani
 affiliations:
