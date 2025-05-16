@@ -7,13 +7,14 @@ authors:
     Hani Alomari, Anushka Sivakumar, Andrew Zhang, Chris Thomas
 affiliations:
     Virginia Tech
-##paper: https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf
+paper: https://2025.aclweb.org/
 ##video: https://www.youtube.com/results?search_query=turing+machine
 code: https://github.com/hanialomari/MaxMatchs
 ##data: https://huggingface.co/docs/datasets
 ---
-> Paper and Code will be released soon. Stay tuned!
----
+<p style="text-align: center; font-weight: bold;">
+    Paper and code will be released soon. Stay tuned!
+</p>
 
 <!-- Using HTML to center the abstract -->
 <div class="columns is-centered has-text-centered">
