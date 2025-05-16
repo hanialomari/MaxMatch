@@ -31,7 +31,8 @@ To address these challenges, we propose a Maximal Pair Assignment Similarity fun
     <div class="column is-four-fifths">
         <figure>
             <img src="fig_main.jpg" alt="Main method figure">
-            <figcaption>Main method overview.</figcaption>
+            <figcaption>Left: An overview of the model architecture based on SetDiv consisting of a visual encoder, textual encoder, and set prediction modules for f^V and f^T. Local and global features are extracted from each modality and input into a set prediction module to generate embedding sets S^V and S^T. We contribute three key components which enable the model to learn diverse embedding sets: a Maximal Pair Assignment Similarity function, Global Discriminative Loss, and Intra-Set Divergence Loss. Right: Our Global Discriminative Loss pushes embeddings within each set away from the global embedding, preventing set collapse, while the Intra-Set Divergence Loss ensures that individual embeddings within each set are distinct, promoting intra-set diversity.
+            </figcaption>
         </figure>
     </div>
 </div>
