@@ -2,11 +2,11 @@
 layout: project_page
 permalink: /
 
-title: On Computable Numbers, with an Application to the Entscheidungsproblem
+title: Maximal Matching Matters: Preventing Representation Collapse for Robust Cross-Modal Retrieval
 authors:
-    A. M. Turing
+    [Hani Alomari](https://www.linkedin.com/in/hani-al-omari-50727289/),[Anushka Sivakumar](https://www.linkedin.com/in/anushka-sivakumar/), [Andrew Zhang](https://www.linkedin.com/in/andrewzhang123/), [Chris Thomas](https://people.cs.vt.edu/chris/)
 affiliations:
-    King's College, Cambridge
+    Virginia Tech
 paper: https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf
 video: https://www.youtube.com/results?search_query=turing+machine
 code: https://github.com/topics/turing-machines
@@ -18,19 +18,10 @@ data: https://huggingface.co/docs/datasets
     <div class="column is-four-fifths">
         <h2>Abstract</h2>
         <div class="content has-text-justified">
-The "computable" numbers may be described briefly as the real
-numbers whose expressions as a decimal are calculable by finite means.
-Although the subject of this paper is ostensibly the computable numbers.
-it is almost equally easy to define and investigate computable functions
-of an integral variable or a real or computable variable, computable
-predicates, and so forth. The fundamental problems involved are,
-however, the same in each case, and I have chosen the computable numbers
-for explicit treatment as involving the least cumbrous technique. I hope
-shortly to give an account of the relations of the computable numbers,
-functions, and so forth to one another. This will include a development
-of the theory of functions of a real variable expressed in terms of computable
-numbers. According to my definition, a number is computable
-if its decimal can be written down by a machine...
+Cross-modal image-text retrieval is challenging because of the diverse possible associations between content from different modalities. 
+Traditional methods learn a single-vector embedding to represent semantics of each sample, but struggle to capture nuanced and diverse possible relationships cross-modally. Set-based approaches, which represent each sample with multiple embeddings, offer a promising alternative in that they can capture richer, more diverse relationships. 
+In this paper, we show that, despite their promise, these set-based representations continue to face issues including sparse supervision and set collapse, which limits their effectiveness. 
+To address these challenges, we propose a Maximal Pair Assignment Similarity function to optimize one-to-one matching between embedding sets which preserves semantic diversity within the set. We also introduce two loss functions to further enhance the representations: Global Discriminative Loss to enhance distinction among embeddings, and Intra-Set Divergence Loss to prevent collapse within each set. Our method achieves state-of-the-art performance on MS-COCO and Flickr30k without relying on external data.
         </div>
     </div>
 </div>

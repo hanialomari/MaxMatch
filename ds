@@ -1,0 +1,28 @@
+[1mdiff --git a/index.md b/index.md[m
+[1mindex 3c9f765..a298fcb 100644[m
+[1m--- a/index.md[m
+[1m+++ b/index.md[m
+[36m@@ -18,19 +18,10 @@[m [mdata: https://huggingface.co/docs/datasets[m
+     <div class="column is-four-fifths">[m
+         <h2>Abstract</h2>[m
+         <div class="content has-text-justified">[m
+[31m-The "computable" numbers may be described briefly as the real[m
+[31m-numbers whose expressions as a decimal are calculable by finite means.[m
+[31m-Although the subject of this paper is ostensibly the computable numbers.[m
+[31m-it is almost equally easy to define and investigate computable functions[m
+[31m-of an integral variable or a real or computable variable, computable[m
+[31m-predicates, and so forth. The fundamental problems involved are,[m
+[31m-however, the same in each case, and I have chosen the computable numbers[m
+[31m-for explicit treatment as involving the least cumbrous technique. I hope[m
+[31m-shortly to give an account of the relations of the computable numbers,[m
+[31m-functions, and so forth to one another. This will include a development[m
+[31m-of the theory of functions of a real variable expressed in terms of computable[m
+[31m-numbers. According to my definition, a number is computable[m
+[31m-if its decimal can be written down by a machine...[m
+[32m+[m[32mCross-modal image-text retrieval is challenging because of the diverse possible associations between content from different modalities.[m[41m [m
+[32m+[m[32mTraditional methods learn a single-vector embedding to represent semantics of each sample, but struggle to capture nuanced and diverse possible relationships cross-modally. Set-based approaches, which represent each sample with multiple embeddings, offer a promising alternative in that they can capture richer, more diverse relationships.[m[41m [m
+[32m+[m[32mIn this paper, we show that, despite their promise, these set-based representations continue to face issues including sparse supervision and set collapse, which limits their effectiveness.[m[41m [m
+[32m+[m[32mTo address these challenges, we propose a Maximal Pair Assignment Similarity function to optimize one-to-one matching between embedding sets which preserves semantic diversity within the set. We also introduce two loss functions to further enhance the representations: Global Discriminative Loss to enhance distinction among embeddings, and Intra-Set Divergence Loss to prevent collapse within each set. Our method achieves state-of-the-art performance on MS-COCO and Flickr30k without relying on external data.[m
+         </div>[m
+     </div>[m
+ </div>[m
