@@ -3,10 +3,20 @@ layout: project_page
 permalink: /
 
 title: Maximal Matching Matters: Preventing Representation Collapse for Robust Cross-Modal Retrieval
+
 authors:
-    [Hani Alomari](https://www.linkedin.com/in/hani-al-omari-50727289/),[Anushka Sivakumar](https://www.linkedin.com/in/anushka-sivakumar/), [Andrew Zhang](https://www.linkedin.com/in/andrewzhang123/), [Chris Thomas](https://people.cs.vt.edu/chris/)
+  - name: Hani Alomari
+    url: https://www.linkedin.com/in/hani-al-omari-50727289/
+  - name: Anushka Sivakumar
+    url: https://www.linkedin.com/in/anushka-sivakumar/
+  - name: Andrew Zhang
+    url: https://www.linkedin.com/in/andrewzhang123/
+  - name: Chris Thomas
+    url: https://people.cs.vt.edu/chris/
+
 affiliations:
-    Virginia Tech
+  - Virginia Tech
+
 paper: https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf
 video: https://www.youtube.com/results?search_query=turing+machine
 code: https://github.com/topics/turing-machines
