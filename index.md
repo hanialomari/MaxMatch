@@ -30,7 +30,7 @@ To address these challenges, we propose a Maximal Pair Assignment Similarity fun
 <div class="columns is-centered has-text-centered">
     <div class="column is-four-fifths">
         <figure>
-            <embed src="fig_main.pdf" type="application/pdf" width="100%" height="600px" />
+            <img src="fig_main.png" alt="Main method figure">
             <figcaption>Main method overview.</figcaption>
         </figure>
     </div>
