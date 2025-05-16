@@ -9,7 +9,7 @@ affiliations:
     Virginia Tech
 ##paper: https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf
 ##video: https://www.youtube.com/results?search_query=turing+machine
-##code: https://github.com/topics/turing-machines
+code: https://github.com/topics/turing-machines
 ##data: https://huggingface.co/docs/datasets
 ---
 
@@ -31,7 +31,7 @@ To address these challenges, we propose a Maximal Pair Assignment Similarity fun
     <div class="column is-four-fifths">
         <figure>
             <img src="fig_main.jpg" alt="Main method figure">
-<figcaption class="has-text-justified">
+<figcaption style="text-align: justify;">
     <em>
         Left: Overview of our SetDiv architecture with visual and textual encoders followed by set prediction modules to generate embedding sets \( S^V \) and \( S^T \). Right: Two key loss functions: Global Discriminative Loss, which pushes embeddings away from the global embedding to prevent set collapse, and Intra-Set Divergence Loss, which encourages diversity within each set.
     </em>
