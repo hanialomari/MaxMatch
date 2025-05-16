@@ -4,7 +4,7 @@ permalink: /
 
 title: Maximal Matching Matters: Preventing Representation Collapse for Robust Cross-Modal Retrieval
 authors:
-    Hani 
+    Hani Alomari, Anushka Sivakumar, Andrew Zhang, Chris Thomas
 affiliations:
     Virginia Tech
 paper: https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf
