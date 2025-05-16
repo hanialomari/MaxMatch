@@ -48,13 +48,14 @@
         <div class="column has-text-centered">
           <h1 class="title is-1 publication-title">{{ page.title }}</h1>
           {% if page.authors %}
-            <div class="is-size-5 publication-authors">
-              {% for author in page.authors %}
-                <span class="author-block">
-                  <a href="{{ author.url }}" target="_blank">{{ author.name }}</a>{% unless forloop.last %},{% endunless %}
-                </span>
-              {% endfor %}
-            </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://www.linkedin.com/in/hani-al-omari-50727289/">Hani Alomari</a>,
+              <a href="https://www.linkedin.com/in/anushka-sivakumar/">Anushka Sivakumar</a>,
+              <a href="https://www.linkedin.com/in/andrewzhang123/">Andrew Zhang</a>,
+              <a href="https://people.cs.vt.edu/chris/">Chris Thomas</a>,
+            </span>
+          </div>
           {% endif %}
 
           {% if page.affiliations %}
