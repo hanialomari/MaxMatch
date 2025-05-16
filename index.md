@@ -26,6 +26,16 @@ To address these challenges, we propose a Maximal Pair Assignment Similarity fun
     </div>
 </div>
 
+<!-- After Abstract -->
+<div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths">
+        <figure>
+            <embed src="fig_main.pdf" type="application/pdf" width="100%" height="600px" />
+            <figcaption>Main method overview.</figcaption>
+        </figure>
+    </div>
+</div>
+
 ---
 
 > Note: This is an example of a Jekyll-based project website template: [Github link](https://github.com/shunzh/project_website).\
