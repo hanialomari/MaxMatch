@@ -12,10 +12,9 @@ paper: https://2025.aclweb.org/
 code: https://github.com/hanialomari/MaxMatchs
 ##data: https://huggingface.co/docs/datasets
 ---
-<p style="text-align: center; font-weight: bold;">
-    Paper and code will be released soon. Stay tuned!
-</p>
-<p style="margin-top: -1.75rem; text-align: center;"><strong>Paper and code will be released soon. Stay tuned!</strong></p>
+
+
+<p style="margin-top: -2.75rem; text-align: center; font-weight: bold;">Paper and code will be released soon. Stay tuned!</p>
 
 
 <!-- Using HTML to center the abstract -->
