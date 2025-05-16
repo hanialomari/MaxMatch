@@ -31,7 +31,11 @@ To address these challenges, we propose a Maximal Pair Assignment Similarity fun
     <div class="column is-four-fifths">
         <figure>
             <img src="fig_main.jpg" alt="Main method figure">
-            <figcaption><em>Left: Overview of our SetDiv architecture with visual and textual encoders followed by set prediction modules to generate embedding sets \( S^V \) and \( S^T \). Right: Two key loss functions: Global Discriminative Loss, which pushes embeddings away from the global embedding to prevent set collapse, and Intra-Set Divergence Loss, which encourages diversity within each set. </em> </figcaption>
+<figcaption class="has-text-justified">
+    <em>
+        Left: Overview of our SetDiv architecture with visual and textual encoders followed by set prediction modules to generate embedding sets \( S^V \) and \( S^T \). Right: Two key loss functions: Global Discriminative Loss, which pushes embeddings away from the global embedding to prevent set collapse, and Intra-Set Divergence Loss, which encourages diversity within each set.
+    </em>
+</figcaption>
         </figure>
     </div>
 </div>
